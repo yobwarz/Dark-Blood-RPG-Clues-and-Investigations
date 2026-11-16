@@ -1,0 +1,41 @@
+{
+  "id": "sangue-escuro-investigacoes",
+  "title": "Sangue Escuro: Pistas e Investigações",
+  "description": "Quadros de investigação com evidências, fotografias, depoimentos, conexões, revelação por jogador e hipóteses para aprovação do Mestre.",
+  "version": "0.1.1",
+  "authors": [
+    {
+      "name": "Sangue Escuro — Yob Warz"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "sangue-escuro",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.8.10"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "assets/investigacoes.css"
+  ],
+  "flags": {
+    "sangue-escuro": {
+      "tipo": "auxiliar"
+    }
+  },
+  "license": "LICENSE",
+  "url": "https://github.com/yobwarz/Dark-Blood-RPG-Clues-and-Investigations",
+  "manifest": "https://raw.githubusercontent.com/yobwarz/Dark-Blood-RPG-Clues-and-Investigations/main/module.json",
+  "download": "https://raw.githubusercontent.com/yobwarz/Dark-Blood-RPG-Clues-and-Investigations/v0.1.1/dist/sangue-escuro-investigacoes.zip"
+}
